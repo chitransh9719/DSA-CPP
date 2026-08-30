@@ -8,3 +8,4 @@ void chitransh(int n){
 int main(){
     chitransh(3);
 }
+// cd ~/Desktop/DSA-CPP
