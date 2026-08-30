@@ -2,9 +2,9 @@
 using namespace std;
 
 void print(int x ,int n){
-    if(x>n) return;
-    cout<<x;
-    print(x+1 ,n);
+    if(x>n) return;      //   base case
+     cout<<x;    //  work
+    print(x+1 ,n);      // call 
 }
 int main (){
     int n;
